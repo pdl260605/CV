@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-semibold, poppins, sans-serif;
+    text-decoration: none;
+
+    background-color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-height {
+    height: 126px;
+}
+
+.col-flex-1 {
+    flex: 1;
+}
+
+.nav-div-left {
+    float: left;
+}
+
+.nav-font-left-strong {
+    font-family: poppins-semibold, poppins, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-font-left-normal {
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    font-size: 17px;
+}
+
+.place-center {
+    place-content: center;
+}
+
+.margin-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.margin-padding-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-right: 50px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    font-size: 14;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav-list li:first-child {
+    color: #0050FF;
+}
+
+.nav-list li:hover {
+    color: #0050FF;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(230, 218, 206);
+    width: 525px;
+    z-index: 1;
+    transition: cubic-bezier(1, 0, 0, 1);
+    height: 951px;
+    margin-top: 52px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.overlay-3 {
+    z-index: 3;
+    position: absolute;
+}
+
+.overlay-4 {
+    z-index: 4;
+    position: fixed;
+}
+
+.overlay-2 {
+    z-index: 2;
+    position: relative;
+}
+
+.overlay-1 {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content-center {
+    margin-top: 300px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.content-left {
+
+    height: 525px !important;
+    min-width: 375px !important;
+    background-color: rgb(244, 236, 230);
+
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
+}
+
+.content-left-below {
+    background-color: white;
+    height: 52px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    height: 113px;
+    width: 100%;
+    margin-top: 951px;
+}
+
+.box {
+    width: 20px;
+    background-color: #0050FF;
+    margin-left: 100px;
+    height: 20px;
+}
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg {
+    background-color: rgb(244, 236, 230);
+}
+
+.list li {
+    display: inline;
+    margin: 10px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-right {
+    min-width: 500px !important;
+    height: 525px !important;
+}
+
+.content-style {
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.content-style-1 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.content-style-bold {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.button-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-style li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.button-style li a {
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #0050FF;
+    color: white;
+    border: 1.6px solid #0050FF;
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+
+
+
+.button-style li:last-child a {
+    display: inline;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border: 1.6px solid black;
+
+}
+
+.button-style li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-style li:last-child a:hover {
+    background-color: #0050FF;
+    color: white;
+}
+
+.inline-display div,
+.inline-display p,
+.inline-display ul {
+    display: inline;
+    margin-right: 40px
+}
+
+.bold p {
+    font-weight: 700;
+}
